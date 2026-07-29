@@ -1,25 +1,17 @@
-
+/*olá*/
 .container {
   min-height: 100vh;
   width: 100%;
-
   background-image: url("/biblioteca.jpg");
   background-size: cover;
   background-position: center;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 30px 20px;
-
   position: relative;
-
   overflow-y: auto;
 }
-
-
-
 
 .overlay {
   position: absolute;
@@ -29,9 +21,6 @@
 
   backdrop-filter: blur(2px);
 }
-
-
-
 
 .card {
   position: relative;
@@ -56,9 +45,6 @@
   overflow: hidden;
 }
 
-
-
-
 .card::before {
   content: "";
 
@@ -78,9 +64,6 @@
   );
 }
 
-
-
-
 .logo {
   width: 150px;
   height: auto;
@@ -88,9 +71,6 @@
   margin: 2px auto 2px;
   animation: logoEntrada 0.8s ease;
 }
-
-
-
 
 .subtitle {
   color: #666;
@@ -141,9 +121,6 @@
 
   margin-bottom: 7px;
 }
-
-
-/* Inputs */
 
 .campo input {
   width: 100%;
@@ -235,8 +212,6 @@
   background: rgba(111, 75, 217, 0.1);
 }
 
-
-
 .esqueci {
   display: block;
 
@@ -261,8 +236,6 @@
 
   transform: translateX(-2px);
 }
-
-
 
 .btnEntrar {
   width: 100%;
@@ -313,8 +286,6 @@
     0 4px 10px rgba(111, 75, 217, 0.2);
 }
 
-
-
 .divisor {
   width: 100%;
 
@@ -341,7 +312,6 @@
 
   margin: 0;
 }
-
 
 .btnGoogle {
   width: 100%;
@@ -396,8 +366,6 @@
   transform: translateY(0);
 }
 
-
-
 .cadastroArea {
   margin-top: 25px;
 }
@@ -425,11 +393,8 @@
 
 .cadastro:hover {
   color: #4f339f;
-
   letter-spacing: 0.3px;
 }
-
-
 
 
 @keyframes aparecer {
@@ -483,8 +448,6 @@
     transform: translateY(0);
   }
 }
-
-
 
 @media (max-width: 500px) {
 
