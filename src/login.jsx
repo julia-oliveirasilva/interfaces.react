@@ -6,7 +6,7 @@ function App() {
       <div className="overlay"></div>
 
       <div className="card">
-        <img src="/logo.jpeg" alt="ExplicaAí" className="logo" />
+        <img src="/logo.png" alt="ExplicaAí" className="logo" />
 
         <p className="subtitle">
           Ensine. Aprenda. Conecte-se.
