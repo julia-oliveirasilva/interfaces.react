@@ -1,12 +1,18 @@
-main {
-  padding: 40px;
-  text-align: center;
+.cabecalho {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 58px;
+    background-color: #fffaf5;
+    border-bottom: 1px solid #efd5d5;
+    box-sizing: border-box;
 }
 
-h1 {
-  margin-bottom: 15px;
-}
+.titulo {
+  text-align: left;
+  font-size: 20px;
+  gap: 10px;
 
-p {
-  font-size: 18px;
 }

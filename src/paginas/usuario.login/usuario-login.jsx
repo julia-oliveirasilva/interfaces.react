@@ -1,13 +1,17 @@
-function UsuarioLogin() {
-  return (
-    <main>
-      <h1>Bem-vindo, Usuário! 👤</h1>
+import "./usuario-login.css";
 
+function usuarioLogin() {
+  return (
+<header class="cabecalho">
+    <div class="titulo">
+        <h1>Bem-vindo, aluno!🧑‍🎓</h1>
+
+    </div>
       <p>
-        Você entrou na área do usuário.
+        Você entrou na área do aluno.
       </p>
-    </main>
+    </header>
   );
 }
 
-export default UsuarioLogin;
+export default usuarioLogin;

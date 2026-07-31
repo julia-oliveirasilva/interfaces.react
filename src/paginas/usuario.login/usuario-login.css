@@ -1,0 +1,18 @@
+.cabecalho {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 58px;
+    background-color: #6bbead;
+    border-bottom: 1px solid #6bbead;
+    box-sizing: border-box;
+}
+
+.titulo {
+  text-align: left;
+  font-size: 20px;
+  gap: 10px;
+
+}
