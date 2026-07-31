@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Login from "./login";
-import UsuarioLogin from "./paginas/usuario.login/usuario-login";
-import TutorLogin from "./paginas/tutor.login/tutor-login";
-import Cadastro from "./paginas/cadastro/cadastro";
+import UsuarioLogin from "./paginas/usuario.login/usuario-login.jsx";
+import TutorLogin from "./paginas/tutor.login/tutor-login.jsx";
+import Cadastro from "./paginas/cadastro/cadastro.jsx";
 
 function App() {
   return (
